@@ -1,7 +1,7 @@
 deviceTypesCommon = require '@resin.io/device-types/common'
 { networkOptions, commonImg, instructions } = deviceTypesCommon
 
-SD_BOOT = 'Configure the SW7 boot dip switch to boot from SD Card (set it to EXT position) and power on the board. Let it boot and perform the automatic install of balenaOS onto the eMMC.'
+SD_BOOT = 'Configure the SW7 boot dip switch to boot from SD Card (set it to EXT position) and power on the board. Let it boot and perform the automatic install of balenaOS onto the eMMC. '
 EMMC_BOOT = 'Configure the SW7 boot dip switch to boot from eMMC (set it to INT position).'
 
 postProvisioningInstructions = [
