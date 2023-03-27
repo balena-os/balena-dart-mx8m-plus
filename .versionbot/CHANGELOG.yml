@@ -1,0 +1,69 @@
+- commits:
+    - subject: Update contracts to 0ff4f419b4467349d7cb1d1202b580004067664c
+      hash: 28eb5afed6872054bd4b8658d6e9412e82896f1a
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 0ff4f419b4467349d7cb1d1202b580004067664c
+        changelog-entry: Update contracts to 0ff4f419b4467349d7cb1d1202b580004067664c
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "patch: Remove CircleCI in favor of Flowzone"
+              hash: 9bed27db936f4ad6acffa4a74cd0fcad72cc313d
+              body: ""
+              footer:
+                Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+                signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+              author: Vipul Gupta (@vipulgupta2048)
+          version: contracts-2.0.54
+          title: ""
+          date: 2023-03-16T15:05:25.391Z
+        - commits:
+            - subject: "patch: Fix fluid tags for revpi-core-3"
+              hash: 9ec5bf22c8e0d5033a8b08a432b7651da8616360
+              body: ""
+              footer:
+                Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+                signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+              author: Vipul Gupta (@vipulgupta2048)
+          version: contracts-2.0.53
+          title: ""
+          date: 2023-03-16T13:25:57.856Z
+        - commits:
+            - subject: "patch: Fix punctuation in partials"
+              hash: 5062b5bb7b22233ea8851996151834fa0554ea2a
+              body: ""
+              footer:
+                Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+                signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+              author: Vipul Gupta (@vipulgupta2048)
+            - subject: "patch: Fix spelling of eMMC"
+              hash: 044cc4865a8997e40f3ee4724a3592ce2ae42cbf
+              body: ""
+              footer:
+                Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+                signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+              author: Vipul Gupta (@vipulgupta2048)
+            - subject: "patch: Fix spelling of while"
+              hash: 95fbb009bb43ef40b77c61961571c64308685aff
+              body: ""
+              footer:
+                Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+                signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+              author: Vipul Gupta (@vipulgupta2048)
+          version: contracts-2.0.52
+          title: ""
+          date: 2023-03-16T12:46:31.310Z
+    - subject: Initial board support for bigMak i.MX8M PLUS
+      hash: 5898df6007bb8c7a4d3d3031b7b0c50930dfb8aa
+      body: ""
+      footer:
+        Changelog-entry: Initial board support for bigMak i.MX8M PLUS
+        changelog-entry: Initial board support for bigMak i.MX8M PLUS
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 2.113.24
+  title: ""
+  date: 2023-03-27T13:41:16.848Z
