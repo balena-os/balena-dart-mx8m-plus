@@ -1,6 +1,20 @@
 # v2.113.24
 ## (2023-03-27)
 
+# v2.113.24+rev1
+## (2023-03-31)
+
+
+<details>
+<summary> Update contracts to fa51fae4b720521334626045c25f754a046f6228 [Renovate Bot] </summary>
+
+> ## contracts-2.0.55
+> ### (2023-03-29)
+> 
+> * iot-gate-imx8plus: Update provisioning instructions [Alexandru]
+> 
+
+</details>
 
 <details>
 <summary> Update contracts to 0ff4f419b4467349d7cb1d1202b580004067664c [Renovate Bot] </summary>
