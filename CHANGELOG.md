@@ -1,6 +1,11 @@
 # v2.113.24
 ## (2023-03-27)
 
+# v2.113.24+rev2
+## (2023-04-03)
+
+* Prevent duplicate CI workflow executions [Kyle Harding]
+
 # v2.113.24+rev1
 ## (2023-03-31)
 
