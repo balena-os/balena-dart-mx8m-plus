@@ -1,6 +1,37 @@
 # v2.113.24
 ## (2023-03-27)
 
+# v2.114.12
+## (2023-04-26)
+
+
+<details>
+<summary> Update layers/meta-balena to 0396b07b2119b2c1a3cdf2bbd107e08de2110671 [Renovate Bot] </summary>
+
+> ## meta-balena-2.114.12
+> ### (2023-04-26)
+> 
+> * classes: kernel-balena: force recompilation if signing variables change [Alex Gonzalez]
+> * balena-keys: make tasks depends on signing variables [Alex Gonzalez]
+> * classes: sign: make signing task depends on signing variables [Alex Gonzalez]
+> 
+
+</details>
+
+
+<details>
+<summary> Update layers/meta-balena to 945c6af54ac4f637418ec812747e4fe4e43e8844 [Renovate Bot] </summary>
+
+> ## meta-balena-2.114.12
+> ### (2023-04-26)
+> 
+> * classes: kernel-balena: force recompilation if signing variables change [Alex Gonzalez]
+> * balena-keys: make tasks depends on signing variables [Alex Gonzalez]
+> * classes: sign: make signing task depends on signing variables [Alex Gonzalez]
+> 
+
+</details>
+
 # v2.114.10
 ## (2023-04-24)
 
