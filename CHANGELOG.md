@@ -1,6 +1,11 @@
 # v2.113.24
 ## (2023-03-27)
 
+# v3.1.8+rev1
+## (2023-08-10)
+
+* Update build instructions in README [Alex Gonzalez]
+
 # v3.1.8
 ## (2023-08-09)
 
