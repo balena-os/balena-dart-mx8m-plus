@@ -1,6 +1,11 @@
 # v2.113.24
 ## (2023-03-27)
 
+# v4.0.9+rev1
+## (2023-09-18)
+
+* Update .gitmodules with submodule branch information [Kyle Harding]
+
 # v4.0.9
 ## (2023-09-16)
 

@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update .gitmodules with submodule branch information
+      hash: aa7276c309957e74a34774b7f6222c8a011070ad
+      body: ""
+      footer:
+        Changelog-entry: Update .gitmodules with submodule branch information
+        changelog-entry: Update .gitmodules with submodule branch information
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 4.0.9+rev1
+  title: ""
+  date: 2023-09-18T15:38:56.356Z
+- commits:
     - subject: Update layers/meta-balena to 8f952b7a5c8db38d6c674c2a0bef577c743ba2f0
       hash: b5a27faf2f95c664cdf1dff7f9bd3318fe49682f
       body: Update layers/meta-balena
