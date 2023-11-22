@@ -1,4 +1,54 @@
 - commits:
+    - subject: Update layers/meta-balena to 3d7cb3b819e6ac6636b7db302dcfc6be0d7c3aed
+      hash: b07fa44b3cc3a630f8e5ac1c8db393d40a739b23
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 3d7cb3b819e6ac6636b7db302dcfc6be0d7c3aed
+        changelog-entry: Update layers/meta-balena to 3d7cb3b819e6ac6636b7db302dcfc6be0d7c3aed
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to 935f8ef
+              hash: 8b9f83c774bd7df17714dfa5443cf41822702ad6
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested:
+                - commits:
+                    - subject: Update Lock file maintenance
+                      hash: 3a19b6a005b2354d247e43ee63f374fd2822e4ef
+                      body: |
+                        Update
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Self-hosted Renovate Bot
+                      nested: []
+                  version: leviathan-2.29.16
+                  title: ""
+                  date: 2023-11-22T11:32:22.495Z
+                - commits:
+                    - subject: Update core/contracts digest to c45079c
+                      hash: 1d890adc096a64d8a7766ca22ffe4e11d8933434
+                      body: |
+                        Update core/contracts
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Self-hosted Renovate Bot
+                      nested: []
+                  version: leviathan-2.29.15
+                  title: ""
+                  date: 2023-11-22T10:35:34.292Z
+          version: meta-balena-4.1.8
+          title: ""
+          date: 2023-11-22T15:44:31.064Z
+  version: 4.1.8
+  title: ""
+  date: 2023-11-22T17:45:33.648Z
+- commits:
     - subject: Update layers/meta-balena to d40a0ca5875c474752cd94aae4e4fd9754b4781f
       hash: 8bf24fb1b330bef5a6c9c180854c314eecba8f40
       body: Update layers/meta-balena
