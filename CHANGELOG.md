@@ -1,6 +1,21 @@
 # v2.113.24
 ## (2023-03-27)
 
+# v4.1.5+rev4
+## (2023-11-22)
+
+
+<details>
+<summary> Update contracts to c45079c380048f9f65967a68cf30f1654195384f [Self-hosted Renovate Bot] </summary>
+
+> ## contracts-2.0.82
+> ### (2023-11-22)
+> 
+> * lcbzu9: boot from internal storage [Francois Loubser]
+> 
+
+</details>
+
 # v4.1.5+rev3
 ## (2023-11-16)
 
