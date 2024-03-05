@@ -1,6 +1,11 @@
 # v2.113.24
 ## (2023-03-27)
 
+# v5.1.47+rev2
+## (2024-03-05)
+
+* pass input parameters to common esr workflow [Alex Gonzalez]
+
 # v5.1.47+rev1
 ## (2024-03-04)
 
