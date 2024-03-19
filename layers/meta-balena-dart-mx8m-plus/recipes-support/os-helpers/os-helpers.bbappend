@@ -5,3 +5,5 @@ do_install:append() {
        bbwarn "MACHINE_FEATURES does not contain raid"
     fi
 }
+
+do_install[nostamp] = "1"
