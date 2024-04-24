@@ -1,6 +1,36 @@
 # v2.113.24
 ## (2023-03-27)
 
+# v5.3.1
+## (2024-04-24)
+
+
+<details>
+<summary> Update layers/meta-balena to 2e58bc5bb95af8ab7f27a3943ebb34761424445c [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.3.1
+> ### (2024-04-24)
+> 
+> * tests: os: address race in internet con. sharing tests [rcooke-warwick]
+> 
+> ## meta-balena-5.3.0
+> ### (2024-04-24)
+> 
+> * hup: signed-update: silence tpm2-tools output [Joseph Kogut]
+> * hup: silence mountpoint [Joseph Kogut]
+> * hup: signed-update: print predicted PCR values after creating a policy [Joseph Kogut]
+> * os-helpers-tpm2: firmware_measures_efibins: silence grep [Joseph Kogut]
+> * os-helpers-tpm2: specify TCTI backend [Joseph Kogut]
+> * os-helpers-sb: silence 'command -v' [Joseph Kogut]
+> * hup: signed-update: update boot files as needed [Joseph Kogut]
+> * hup: signed-update: always remove policy directory [Joseph Kogut]
+> * os-helpers-tpm2: append event log digests before separator [Joseph Kogut]
+> * hostapp-update-hooks: signed-update: fix exit code conditional [Joseph Kogut]
+> * os-helpers-tpm2: fix awk syntax error causing unbootable machines [Joseph Kogut]
+> 
+
+</details>
+
 # v5.2.10
 ## (2024-04-23)
 
