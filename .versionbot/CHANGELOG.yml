@@ -1,4 +1,32 @@
 - commits:
+    - subject: Update balena-yocto-scripts to cdc09006ec79c82efe149abfc8eb8b932924ef89
+      hash: 1a0a9cd8bf76db9acd2a4df66224deed721dcbd3
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to cdc09006ec79c82efe149abfc8eb8b932924ef89
+        changelog-entry: Update balena-yocto-scripts to cdc09006ec79c82efe149abfc8eb8b932924ef89
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "revovate: change config to use balena-io template"
+              hash: f4d82d9029f39245cf15d2433a783d33787a73d1
+              body: >
+                in this repo we are using "change-type" commits, but renovate is
+                using the balena-os default which is using "changelog-entry"
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: balena-yocto-scripts-1.25.11
+          title: ""
+          date: 2024-07-29T15:14:59.755Z
+  version: 6.0.6+rev2
+  title: ""
+  date: 2024-07-29T18:49:20.320Z
+- commits:
     - subject: Update contracts to 1d499fe7d33791e1ac6dccfe031e178b7d520bb4
       hash: fc3b9707d62c4c58a5ec65381c3424d1cdbb26c8
       body: Update contracts
