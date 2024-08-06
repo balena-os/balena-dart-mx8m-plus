@@ -1,6 +1,21 @@
 # v2.113.24
 ## (2023-03-27)
 
+# v6.0.6+rev6
+## (2024-08-06)
+
+
+<details>
+<summary> Update contracts to 6d69a05508a9232ba593962c62dc9dd133dee616 [balena-renovate[bot]] </summary>
+
+> ## contracts-2.0.109
+> ### (2024-08-06)
+> 
+> * hw.device-type: Update provisioning instructions for AGX Orin 64GB [Alexandru]
+> 
+
+</details>
+
 # v6.0.6+rev5
 ## (2024-08-05)
 
