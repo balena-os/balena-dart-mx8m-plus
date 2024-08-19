@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update contracts to e1d59ac348642e274b442db4a41edab5c511576c
+      hash: 3390d05c0da10e52c4c4684f8d311960c3908c12
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to e1d59ac348642e274b442db4a41edab5c511576c
+        changelog-entry: Update contracts to e1d59ac348642e274b442db4a41edab5c511576c
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Add support for Ubuntu Noble
+              hash: 909a9e8fd4f81731975f4a82304947f82a2d5378
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: ruffsl <roxfoxpox@gmail.com>
+                signed-off-by: ruffsl <roxfoxpox@gmail.com>
+              author: ruffsl
+          version: contracts-2.0.112
+          title: ""
+          date: 2024-08-19T15:53:05.491Z
+  version: 6.0.10+rev1
+  title: ""
+  date: 2024-08-19T18:11:06.556Z
+- commits:
     - subject: Update layers/meta-balena to 8fde3b3743c86febb753e38b1f809d66e41f7756
       hash: 7f89208832aff24887a87c1fc288891d3bc96643
       body: Update layers/meta-balena
