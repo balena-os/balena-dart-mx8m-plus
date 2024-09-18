@@ -1,6 +1,26 @@
 # v2.113.24
 ## (2023-03-27)
 
+# v6.0.28
+## (2024-09-18)
+
+
+<details>
+<summary> Update layers/meta-balena to 7c61b0f1e4af295d412a00d7965b106f4922d4f0 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.0.28
+> ### (2024-09-18)
+> 
+> * initrdscripts: replace cut by awk for parsing lsblk in cryptsetup hook [Michal Toman]
+> 
+> ## meta-balena-6.0.27
+> ### (2024-09-17)
+> 
+> * tests:os: Use writeConfigJsonProp helper function [Kyle Harding]
+> 
+
+</details>
+
 # v6.0.26
 ## (2024-09-16)
 
