@@ -1,4 +1,19 @@
 - commits:
+    - subject: Generate SBOM and VEX (cycloneDX)
+      hash: 79192a857a887f874bcbb1a0f91d6741966b5e9c
+      body: >
+        https://balena.fibery.io/Work/Project/balenaos-SBOM-as-release-asset-1515
+      footer:
+        Changelog-entry: Generate SBOM and VEX (cycloneDX)
+        changelog-entry: Generate SBOM and VEX (cycloneDX)
+        Signed-off-by: Edwin Joassart <edwin.joassart@balena.io>
+        signed-off-by: Edwin Joassart <edwin.joassart@balena.io>
+      author: Edwin Joassart
+      nested: []
+  version: 6.0.33+rev1
+  title: ""
+  date: 2025-07-09T10:13:14.806Z
+- commits:
     - subject: Update layers/meta-balena to f2c72d6bbd312821f0bb97897fe7836c525950f7
       hash: a1fc5ab7bc1a558d8a16d2eeadb522c5aa694ddd
       body: Update layers/meta-balena
@@ -190,16 +205,11 @@
         - commits:
             - subject: "modemmanager: Fix SIM7100E crash"
               hash: e397c18742117596fed133e0b5992362e230f538
-              body: >
+              body: |
                 With the update to MM 1.22.0 we have received reports that
-
                 SIM7100E is not functioning correctly.
-
-                Followed up with ModemManager devs and it was discovered the
-                issue
-
+                Followed up with ModemManager devs and it was discovered the issue
                 is related to a PCO setting:
-
                 https://gitlab.freedesktop.org/mobile-broadband/ModemManager/-/issues/884
               footer:
                 Change-type: patch
@@ -2343,11 +2353,8 @@
         - commits:
             - subject: "hw.device-type: Update provisioning instructions for AGX Orin 64GB"
               hash: f8d665f044ea2e39a100fb865ffd5f8a8f4ae65f
-              body: >
-                The AGX Orin 64GB should be provisioned on the eMMC by default
-                as per the internal thread
-                https://balena.zulipchat.com/#narrow/stream/346009-aspect.2Fcustomer-success/topic/Get.20feedback.20on.20draft.20balenaOS.20with.20L4T.2036.2E3.20for.20Jetson.20Orin/near/455889690
-
+              body: |
+                The AGX Orin 64GB should be provisioned on the eMMC by default as per the internal thread https://balena.zulipchat.com/#narrow/stream/346009-aspect.2Fcustomer-success/topic/Get.20feedback.20on.20draft.20balenaOS.20with.20L4T.2036.2E3.20for.20Jetson.20Orin/near/455889690
 
                 We thus update the provisioning instructions accordingly
               footer:
@@ -2613,14 +2620,8 @@
               nested: []
             - subject: unroll balena_api_is_dt_private function
               hash: cc3102dbb1348ee563b08dfd3afd37daaa0404ca
-              body: >
-                when building + deploying or a private DT , the check to see if
-                the DT is private fails. This is due to
-                https://github.com/balena-os/balena-yocto-scripts/blob/master/automation/include/balena-api.inc#L424
-                using this function:
-                https://github.com/balena-os/balena-yocto-scripts/blob/master/automation/include/balena-lib.inc#L191
-                - which uses the jenkins deployTo variable to select the correct
-                api url and token.
+              body: |
+                when building + deploying or a private DT , the check to see if the DT is private fails. This is due to https://github.com/balena-os/balena-yocto-scripts/blob/master/automation/include/balena-api.inc#L424 using this function: https://github.com/balena-os/balena-yocto-scripts/blob/master/automation/include/balena-lib.inc#L191 - which uses the jenkins deployTo variable to select the correct api url and token.
               footer:
                 Change-type: patch
                 change-type: patch
@@ -7255,15 +7256,11 @@
               nested: []
             - subject: "os-helpers-tpm2: specify TCTI backend"
               hash: c4eb9d7f6ad412bd74d77ece0e534c8dd2dd6fac
-              body: >
-                Specify the TCTI backend [0], which also silences error messages
-                from
-
+              body: |
+                Specify the TCTI backend [0], which also silences error messages from
                 trying unsupported backends
 
-
-                [0]
-                https://github.com/tpm2-software/tpm2-tools/blob/master/man/common/tcti.md
+                [0] https://github.com/tpm2-software/tpm2-tools/blob/master/man/common/tcti.md
               footer:
                 Change-type: patch
                 change-type: patch
@@ -8215,38 +8212,21 @@
               nested: []
             - subject: "os-helpers: compute_pcr7: merge event log digests"
               hash: e10d67084621e5ce10f14557f2466e91ff684b41
-              body: >
+              body: |
                 The main variables measured into PCR7 to ensure secure boot
-
-                configuration integrity are the state and EFI vars, including
-                PK, KEK,
-
+                configuration integrity are the state and EFI vars, including PK, KEK,
                 db, dbx, etc.
 
-
-                However, some systems have firmware that will measure other,
-                unexpected
-
-                events, such as "DMA Protection Disabled" (related to a Windows
-                feature
-
+                However, some systems have firmware that will measure other, unexpected
+                events, such as "DMA Protection Disabled" (related to a Windows feature
                 [0]), or "Unknown event type" with strange data.
 
-
-                These events can't be predicted, and other devices may have
-                different
-
-                measured events that aren't compliant with the TCG spec, so
-                attempt to
-
-                check the TPM event log and extend our digest with any unknown
-                events
-
+                These events can't be predicted, and other devices may have different
+                measured events that aren't compliant with the TCG spec, so attempt to
+                check the TPM event log and extend our digest with any unknown events
                 that fit the bill.
 
-
-                [0]
-                https://learn.microsoft.com/en-us/windows/security/hardware-security/kernel-dma-protection-for-thunderbolt
+                [0] https://learn.microsoft.com/en-us/windows/security/hardware-security/kernel-dma-protection-for-thunderbolt
               footer:
                 Change-type: patch
                 change-type: patch
@@ -8916,15 +8896,9 @@
                 - commits:
                     - subject: Remove dependency on @balena/happy-eyeballs
                       hash: 08727ed2b5f67c55b2469d3ee5c5e2857119521b
-                      body: >
-                        Node 20 now implements the happy eyeballs algorithm as
-                        part of its core
-
-                        `net` module, with the
-                        [autoSelectFamily](https://nodejs.org/docs/latest-v20.x/api/net.html#netgetdefaultautoselectfamily)
-                        option of `socket.connect`. This option defaults to
-                        `true`, meaning that a separate
-
+                      body: |
+                        Node 20 now implements the happy eyeballs algorithm as part of its core
+                        `net` module, with the [autoSelectFamily](https://nodejs.org/docs/latest-v20.x/api/net.html#netgetdefaultautoselectfamily) option of `socket.connect`. This option defaults to `true`, meaning that a separate
                         implementation of happy eyeballs is no longer needed.
                       footer:
                         Change-type: patch
@@ -9362,15 +9336,10 @@
             - subject: "resin-init-flasher: Allow building images for non-flasher devices that
                 have internal storage"
               hash: 3a887512b343b80208196f6792a48f81d1a8c8f9
-              body: >
-                As per the internal thread:
-                https://balena.zulipchat.com/#narrow/stream/360838-balena-io.2Fos.2Fdevices/topic/balena-raspberrypi.20jenkins.20build.20failures/near/423970246
+              body: |
+                As per the internal thread: https://balena.zulipchat.com/#narrow/stream/360838-balena-io.2Fos.2Fdevices/topic/balena-raspberrypi.20jenkins.20build.20failures/near/423970246
 
-
-                Currently devices with on-board storage fail to build in
-                jenkins, if they don't provide a flasher image. One example is
-                the CM4. Since there are multiple devices using this
-                configuration, let's re-enable builds for all of them.
+                Currently devices with on-board storage fail to build in jenkins, if they don't provide a flasher image. One example is the CM4. Since there are multiple devices using this configuration, let's re-enable builds for all of them.
               footer:
                 Change-type: patch
                 change-type: patch
@@ -9500,17 +9469,10 @@
                 - commits:
                     - subject: Fix support for rsync deltas
                       hash: 24e222045ac511cd4fbb3be66e57eb678a29d854
-                      body: >
-                        Rsync (v2) deltas have been broken since [Supervisor
-                        v14](https://github.com/balena-os/balena-supervisor/commit/460c3ba0aab31d18a02e3f5dda1838691768c494).
-                        While considered legacy,
-
-                        they are still used by a few customers with devices
-                        running OS < 2.47.1.
-
-                        This should fix v2 delta support for those devices until
-                        we can
-
+                      body: |
+                        Rsync (v2) deltas have been broken since [Supervisor v14](https://github.com/balena-os/balena-supervisor/commit/460c3ba0aab31d18a02e3f5dda1838691768c494). While considered legacy,
+                        they are still used by a few customers with devices running OS < 2.47.1.
+                        This should fix v2 delta support for those devices until we can
                         completely remove rsync deltas from the supervisor
                       footer:
                         Change-type: patch
@@ -9585,39 +9547,19 @@
                 - commits:
                     - subject: Add special case for base DTO params on RPI config
                       hash: 6e6a796da5ecc846248eae4c8495bc626964c038
-                      body: >
-                        While ordering is important in the RPI firmware
-                        configuration file (config.txt),
-
-                        some dt params are by default considered part of the
-                        base dt overlay
-
+                      body: |
+                        While ordering is important in the RPI firmware configuration file (config.txt),
+                        some dt params are by default considered part of the base dt overlay
                         if they are not used by other overlays.
-
-                        Unfortunately the [list of
-                        dtparams](https://github.com/raspberrypi/firmware/blob/master/boot/overlays/README#L133)
-
-                        is too long to add all of them as exceptions, but we can
-                        add the params
-
-                        used in the default config.txt provided in OS images, to
-                        avoid reboots
-
-                        when updating to this new supervisor and correctly
-                        parsing the
-
+                        Unfortunately the [list of dtparams](https://github.com/raspberrypi/firmware/blob/master/boot/overlays/README#L133)
+                        is too long to add all of them as exceptions, but we can add the params
+                        used in the default config.txt provided in OS images, to avoid reboots
+                        when updating to this new supervisor and correctly parsing the
                         provisioning config.txt as variables.
 
-
-                        While this addition handles most common scenarios, there
-                        is still a
-
-                        chance a user may have use other base overlay dt params
-                        in the initial
-
-                        config, in which case those will be interpreted
-                        according to the
-
+                        While this addition handles most common scenarios, there is still a
+                        chance a user may have use other base overlay dt params in the initial
+                        config, in which case those will be interpreted according to the
                         relative ordering
                       footer:
                         Change-type: patch
@@ -12408,9 +12350,8 @@
         - commits:
             - subject: "automation/balena-deploy: Pin to known working version of balena-img"
               hash: 927310397896f35bd1921202e8b1f30ba3ef47d8
-              body: >
-                As per internal thread
-                https://balena.zulipchat.com/#narrow/stream/345890-balena-io/topic/Jenkins.20build.20failures/near/409602914
+              body: |
+                As per internal thread https://balena.zulipchat.com/#narrow/stream/345890-balena-io/topic/Jenkins.20build.20failures/near/409602914
               footer:
                 Change-type: patch
                 change-type: patch
@@ -14154,15 +14095,11 @@
         - commits:
             - subject: 'Revert "kernel-balena: Remove apparmor support"'
               hash: ddc94ae58072323cf94ac39d6c2d16c78ff794d8
-              body: >
-                This is no longer needed after the balena_os/balena-engine
-                commit:
-
+              body: |
+                This is no longer needed after the balena_os/balena-engine commit:
                 https://github.com/balena-os/balena-engine/commit/ed8ba18e8776a7bf37b3326baeca8196b4ea76b0
 
-
                 released in balena-engine v20.10.39
-
 
                 This reverts commit 18cd233a83554b58b3540164afd768fdeda60b03.
               footer:
@@ -17647,12 +17584,9 @@
         - commits:
             - subject: "linux/kernel-devsrc: Fix aarch64 kernel-headers-test build"
               hash: 65abb381ec266066b24f53fa3119dd47ec8af1a3
-              body: >
+              body: |
                 This fix has been ported from the following upstream
-
-                change:
-                https://patchwork.yoctoproject.org/project/oe-core/patch/002c31d6add77e1002fb1ccd4050ce826a654170.1659653543.git.bruce.ashfield@gmail.com/
-
+                change: https://patchwork.yoctoproject.org/project/oe-core/patch/002c31d6add77e1002fb1ccd4050ce826a654170.1659653543.git.bruce.ashfield@gmail.com/
                 and fixes the following compilation error on generic-aarch64:
 
                     make[1]: *** No rule to make target 'arch/arm64/tools/gen-sysreg.awk',
@@ -18348,20 +18282,14 @@
         - commits:
             - subject: "kernel-devsrc: fix for v6.1+"
               hash: 1687110706cbde4a4d968afb04b3abc07e5c7eaa
-              body: >
+              body: |
                 Adapted as a bbappend from:
-
                 https://git.yoctoproject.org/poky/commit/meta/recipes-kernel/linux/kernel-devsrc.bb?id=2be1b5d7d38d72c35ec593b98366d128fe5ce12c
 
-
                 The 6.1 kernel has a number of Kbuild and architecture changes
-
                 that required us to update our devsrc recipe. With these changes
-
                 we are once again able to build on target modules for all
-
                 supported archectures.
-
 
                 (From OE-Core rev: a3972b3f919400a12bb9a546ae98092cbfdcdbb8)
               footer:
@@ -20625,10 +20553,8 @@
         - commits:
             - subject: Fix LED support for ISG-503
               hash: 8c779e12dbb16892528af17d8749cff1902146ad
-              body: >
-                The LED support was incorrectly changed in
-                https://github.com/balena-io/contracts/commit/4bb6eb1f732957e605f00e47b068199f14ff1765
-
+              body: |
+                The LED support was incorrectly changed in https://github.com/balena-io/contracts/commit/4bb6eb1f732957e605f00e47b068199f14ff1765
                 Let's switch it back to unsupported. 
               footer:
                 Change-type: patch
@@ -22129,24 +22055,13 @@
                 - commits:
                     - subject: Log uncaught promise exceptions on the app entry
                       hash: 676464142690da2e36a810cb35e4ea4d0d751636
-                      body: >
-                        Node 15 [changed the way it treats unhandled promise
-                        rejections](https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md#throw-on-unhandled-rejections---33021)
-                        from a warning to a throw.
+                      body: |
+                        Node 15 [changed the way it treats unhandled promise rejections](https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md#throw-on-unhandled-rejections---33021) from a warning to a throw.
+                        For this reason errors like a corrupt migration directory, that happens when trying to
+                        roll back to a previous supervisor version were no longer showing a
+                        message but dumping the full minimized code into the journal logs.
 
-                        For this reason errors like a corrupt migration
-                        directory, that happens when trying to
-
-                        roll back to a previous supervisor version were no
-                        longer showing a
-
-                        message but dumping the full minimized code into the
-                        journal logs.
-
-
-                        This PR adds a catchall on app.ts to log the exception
-                        and throw an exit
-
+                        This PR adds a catchall on app.ts to log the exception and throw an exit
                         code of 1.
                       footer:
                         Change-type: patch
@@ -22159,15 +22074,10 @@
                 - commits:
                     - subject: Fix assertion error in restart-service
                       hash: b9e1464d96824f5332c71324d753d94ddbdecf90
-                      body: >
-                        From:
-                        https://github.com/balena-os/balena-supervisor/pull/2153/commits/c0b4fafe842115933b1da9b4d68e601a19c3e4eb
-
-                        Restart-service checks that both services have restarted
-                        in its test assertion, which is
-
-                        incorrect as restart-service should only restart one
-                        service.
+                      body: |
+                        From: https://github.com/balena-os/balena-supervisor/pull/2153/commits/c0b4fafe842115933b1da9b4d68e601a19c3e4eb
+                        Restart-service checks that both services have restarted in its test assertion, which is
+                        incorrect as restart-service should only restart one service.
                       footer:
                         Change-type: patch
                         change-type: patch
@@ -22717,20 +22627,14 @@
               nested: []
             - subject: Make sure balenaEngine owns the container cgroups
               hash: 5efa793c5af63ef177de95b8b4251799b0de7f40
-              body: >
-                Setting `Delegate=yes` ensures that systemd will not change
-                anything on
-
+              body: |
+                Setting `Delegate=yes` ensures that systemd will not change anything on
                 the cgroups created for running the containers.
 
-
                 This setting is used upstream since this commit:
-
                 https://github.com/moby/moby/commit/d16737f971092767c1b9d28302a3f5aedbe2f576
 
-
-                And also is recommended by systemd:
-                https://systemd.io/CGROUP_DELEGATION/
+                And also is recommended by systemd: https://systemd.io/CGROUP_DELEGATION/
               footer:
                 Signed-off-by: Leandro Motta Barros <leandro@balena.io>
                 signed-off-by: Leandro Motta Barros <leandro@balena.io>
@@ -23248,9 +23152,8 @@
         - commits:
             - subject: "kernel-balena: Include NFS V2, V3 and V4 client and server modules"
               hash: 54c4090b518bccfdba0b635ead129502572685be
-              body: >
+              body: |
                 As per internal discussion thread
-
                 https://balena.zulipchat.com/#narrow/stream/345882-_help/topic/.E2.9C.94.20nfs.20.283.20or.204.29.20on.20jetson.20nano/near/342072698
               footer:
                 Change-type: patch
