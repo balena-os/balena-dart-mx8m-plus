@@ -1,4 +1,42 @@
 - commits:
+    - subject: "kernel-headers-test: re-enable kernel modules"
+      hash: 040adf40d9dc18be91ddbf37b2ba5fdb4e9c822c
+      body: |
+        Re-enable kernel modules removing BALENA_DISABLE_KERNEL_HEADERS from
+        local.conf.
+      footer:
+        Changelog-entry: "kernel-headers-test: re-enable kernel modules"
+        changelog-entry: "kernel-headers-test: re-enable kernel modules"
+        Signed-off-by: guille-vega <guillermo.vega@balena.io>
+        signed-off-by: guille-vega <guillermo.vega@balena.io>
+      author: guille-vega
+      nested: []
+    - subject: ".github: update workflow"
+      hash: d490ee17a14ab2e2f0256a81e11d3cd2d201ae58
+      body: ""
+      footer:
+        Changelog-entry: ".github: update workflow"
+        changelog-entry: ".github: update workflow"
+        Signed-off-by: guille-vega <guillermo.vega@balena.io>
+        signed-off-by: guille-vega <guillermo.vega@balena.io>
+      author: guille-vega
+      nested: []
+    - subject: Set explicit partition size overrides for each machine
+      hash: abd021b9e758ff156923bdf96a83b1aefd76c3f2
+      body: |
+        Ensure IMAGE_ROOTFS_SIZE, BALENA_BOOT_SIZE, and BALENA_STATE_SIZE are
+        explicitly defined for every machine target
+      footer:
+        Changelog-entry: Set explicit partition size overrides for each machine
+        changelog-entry: Set explicit partition size overrides for each machine
+        Signed-off-by: guille-vega <guillermo.vega@balena.io>
+        signed-off-by: guille-vega <guillermo.vega@balena.io>
+      author: guille-vega
+      nested: []
+  version: 6.0.33+rev2
+  title: ""
+  date: 2026-08-11T00:08:45.260Z
+- commits:
     - subject: Generate SBOM and VEX (cycloneDX)
       hash: 79192a857a887f874bcbb1a0f91d6741966b5e9c
       body: >

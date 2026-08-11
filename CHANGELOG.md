@@ -1,6 +1,13 @@
 # v2.113.24
 ## (2023-03-27)
 
+# v6.0.33+rev2
+## (2026-08-11)
+
+* kernel-headers-test: re-enable kernel modules [guille-vega]
+* .github: update workflow [guille-vega]
+* Set explicit partition size overrides for each machine [guille-vega]
+
 # v6.0.33+rev1
 ## (2025-07-09)
 
