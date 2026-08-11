@@ -1,6 +1,11 @@
 # v2.113.24
 ## (2023-03-27)
 
+# v6.0.33+rev4
+## (2026-08-11)
+
+* Update layers/meta-cyclonedx to 221bf15bf2081d1d025f069429f1b94a14d520af [balena-renovate[bot]]
+
 # v6.0.33+rev3
 ## (2026-08-11)
 
