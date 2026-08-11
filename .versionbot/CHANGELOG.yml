@@ -1,4 +1,19 @@
 - commits:
+    - subject: Update layers/meta-openembedded to
+        ce8539c941f6fcbecaca4d16640ac105c0595589
+      hash: 75cd8cefb4e9611204d5913bfe4ce97018a4c2fe
+      body: Update layers/meta-openembedded
+      footer:
+        Changelog-entry: Update layers/meta-openembedded to
+          ce8539c941f6fcbecaca4d16640ac105c0595589
+        changelog-entry: Update layers/meta-openembedded to
+          ce8539c941f6fcbecaca4d16640ac105c0595589
+      author: balena-renovate[bot]
+      nested: []
+  version: 6.0.33+rev3
+  title: ""
+  date: 2026-08-11T01:58:46.595Z
+- commits:
     - subject: "kernel-headers-test: re-enable kernel modules"
       hash: 040adf40d9dc18be91ddbf37b2ba5fdb4e9c822c
       body: |
