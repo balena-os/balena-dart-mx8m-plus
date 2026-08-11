@@ -22,3 +22,6 @@ IMAGE_INSTALL:append = " \
 
 # the BSP sets this variable in the machine conf so let's unset it since this makes our build fail
 unset ROOTFS_SIZE
+
+BALENA_BOOT_SIZE:bigmak-imx8m-plus = "40960"
+BALENA_STATE_SIZE:bigmak-imx8m-plus = "20480"
