@@ -1,6 +1,21 @@
 # v2.113.24
 ## (2023-03-27)
 
+# v8.0.0+rev3
+## (2026-08-20)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 94f7d206fb6ed31e000b10cd15e8468991707cca [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.42.7
+> ### (2026-08-19)
+> 
+> * Update lodash to v4.18.1 [SECURITY] [balena-renovate[bot]]
+> 
+
+</details>
+
 # v8.0.0+rev2
 ## (2026-08-19)
 
