@@ -1,4 +1,40 @@
 - commits:
+    - subject: Update layers/meta-balena to 7dbf3fe8ce198bc7b88be72bb30791223716c39c
+      hash: a909ca42043232a9ac5c1808273d5e7381d254b2
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 7dbf3fe8ce198bc7b88be72bb30791223716c39c
+        changelog-entry: Update layers/meta-balena to 7dbf3fe8ce198bc7b88be72bb30791223716c39c
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "balena-bootloader.bbclass: Move common bits from devices to class"
+              hash: f0b0c9843b896451123a6e41e7d8e5421608b20b
+              body: >
+                After adding the balena bootloader to a handful of devices, some
+                stuff
+
+                keeps getting copy/pasted into the bootloader recipes.
+
+
+                This patch moves the common bits to balena-bootloader.bbclass to
+                avoid
+
+                duplication and make it easier to use.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-8.0.3
+          title: ""
+          date: 2026-08-24T19:29:40.404Z
+  version: 8.0.3
+  title: ""
+  date: 2026-08-25T03:12:29.279Z
+- commits:
     - subject: Update layers/meta-balena to f3ee62082eb6ff27aeb4638456209cb13518a82e
       hash: 1533f797d403efbc605b17538b6d81daabb7b5af
       body: Update layers/meta-balena
