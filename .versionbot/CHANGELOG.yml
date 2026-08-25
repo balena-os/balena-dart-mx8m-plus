@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update flowzonify to 0.4.0
+      hash: a8b38747249c7c372bbb6ceb069bd1c376a530a6
+      body: Update flowzonify
+      footer:
+        Changelog-entry: Update flowzonify to 0.4.0
+        changelog-entry: Update flowzonify to 0.4.0
+      author: balena-renovate[bot]
+      nested: []
+  version: 8.0.3+rev1
+  title: ""
+  date: 2026-08-25T04:51:13.902Z
+- commits:
     - subject: Update layers/meta-balena to 7dbf3fe8ce198bc7b88be72bb30791223716c39c
       hash: a909ca42043232a9ac5c1808273d5e7381d254b2
       body: Update layers/meta-balena
